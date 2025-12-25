@@ -6,13 +6,10 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18
 }).addTo(map);
 
-// PMR ikon (opcionális)
+// PMR ikon
 const pmrIcon = L.icon({
-//    iconUrl: 'https://cdn-icons-png.flaticon.com/512/854/854878.png',
     iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-//    iconSize: [48, 48],      // <<< nagyobb ikon
-//    iconAnchor: [24, 48],    // <<< ikon közepe + alja
-//    popupAnchor: [0, -48]    // <<< popup ne csússzon rá
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png'
 });
 
 
