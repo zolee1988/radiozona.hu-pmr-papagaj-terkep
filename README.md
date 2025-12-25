@@ -13,3 +13,10 @@ https://www.facebook.com/radiozona.hu
 - Olvasható, nagy betűs popupok  
 - Felső információs fejléc (logó + cím + forrás + frissítési idő)  
 - Egyszerűen bővíthető adatstruktúra
+
+## A térkép elérhető itt:
+https://zolee1988.github.io/radiozona.hu-pmr-papagaj-terkep/
+
+## Ha szeretnéd támogatni a projektet és a munkámat, PayPal-on tudsz támogatást küldeni:
+
+[![Donate](https://img.shields.io/badge/PayPal-Donate-blue.svg)](https://www.paypal.com/donate/?business=WBPE7H8CM2PEQ&no_recurring=0&currency_code=HUF)
