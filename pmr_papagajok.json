@@ -49,6 +49,152 @@
   "ctcss_code": "CTCSS 22",
   "dcs": null,
   "notes": null
-}
+},
+  {
+  "name": "Istenmezei",
+  "locator": "KN08AB",
+  "channel": 10,
+  "freq_mhz": 446.11875,
+  "ctcss_hz": 77.0,
+  "ctcss_code": "CTCSS 4",
+  "dcs": null,
+  "notes": null
+},
+  
+  {
+    "name": "Kerepesi",
+    "locator": "JN97PN",
+    "channel": 2,
+    "freq_mhz": 446.01875,
+    "ctcss_hz": 100.0,
+    "ctcss_code": "CTCSS 12",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Keszthelyi",
+    "locator": "JN86OS",
+    "channel": 7,
+    "freq_mhz": 446.08125,
+    "ctcss_hz": 141.3,
+    "ctcss_code": "CTCSS 22",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Kiskunhalasi",
+    "locator": "JN96RK",
+    "channel": 9,
+    "freq_mhz": 446.10625,
+    "ctcss_hz": 100.0,
+    "ctcss_code": "CTCSS 12",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Lajosmizsei",
+    "locator": "JN97SA",
+    "channel": 4,
+    "freq_mhz": 446.04375,
+    "ctcss_hz": 114.8,
+    "ctcss_code": "CTCSS 16",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Lepsényi",
+    "locator": "JN96CX",
+    "channel": 13,
+    "freq_mhz": 446.15625,
+    "ctcss_hz": 107.2,
+    "ctcss_code": "CTCSS 14",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Lukácsháza",
+    "locator": "JN87GI",
+    "channel": 12,
+    "freq_mhz": 446.14375,
+    "ctcss_hz": 100.0,
+    "ctcss_code": "CTCSS 12",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Mátészalkai",
+    "locator": "KN17DW",
+    "channel": 14,
+    "freq_mhz": 446.16875,
+    "ctcss_hz": 103.5,
+    "ctcss_code": "CTCSS 13",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Miskolci",
+    "locator": "KN08JC",
+    "channel": 13,
+    "freq_mhz": 446.15625,
+    "ctcss_hz": 210.7,
+    "ctcss_code": "CTCSS 33",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Pécsi",
+    "locator": "JN96CB",
+    "channel": 15,
+    "freq_mhz": 446.18125,
+    "ctcss_hz": 88.5,
+    "ctcss_code": "CTCSS 8",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Pétervásári",
+    "locator": "KN08BA",
+    "channel": 3,
+    "freq_mhz": 446.03125,
+    "ctcss_hz": 103.5,
+    "ctcss_code": "CTCSS 13",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Pomázi",
+    "locator": "JN97MP",
+    "channel": 14,
+    "freq_mhz": 446.16875,
+    "ctcss_hz": 100.0,
+    "ctcss_code": "CTCSS 12",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Salgótarjáni",
+    "locator": "JN98VC",
+    "channel": 14,
+    "freq_mhz": 446.16875,
+    "ctcss_hz": 114.8,
+    "ctcss_code": "CTCSS 16",
+    "dcs": null,
+    "notes": null
+  },
+    {
+    "name": "Sátoraljaújhelyi",
+    "locator": "KN08TJ",
+    "channel": 12,
+    "freq_mhz": 446.14375,
+    "ctcss_hz": 177.3,
+    "ctcss_code": "-",
+    "dcs": null,
+    "notes": "egyedi CTCSS"
+  },
+{ "name": "Szarvasi", "locator": "KN06GU", "channel": 4, "freq_mhz": 446.04375, "ctcss_hz": 100.0, "ctcss_code": "CTCSS 12", "dcs": null, "notes": null }, { "name": "Szákszendi", "locator": "JN97BN", "channel": 13, "freq_mhz": 446.15625, "ctcss_hz": 100.0, "ctcss_code": "CTCSS 12", "dcs": null, "notes": null }, { "name": "Soproni", "locator": "JN87HQ", "channel": 10, "freq_mhz": 446.11875, "ctcss_hz": 94.8, "ctcss_code": "CTCSS 10", "dcs": null, "notes": null }, { "name": "Székesfehérvári", "locator": "JN97EE", "channel": 6, "freq_mhz": 446.06875, "ctcss_hz": 100.0, "ctcss_code": "CTCSS 12", "dcs": null, "notes": null }, { "name": "Zalaegerszegi1", "locator": "JN86KU", "channel": 5, "freq_mhz": 446.05625, "ctcss_hz": 100.0, "ctcss_code": "CTCSS 12", "dcs": null, "notes": null },
+  { "name": "Zalaegerszegi2", "locator": "JN86KU", "channel": 12, "freq_mhz": 446.14375, "ctcss_hz": 206.5, "ctcss_code": "-", "dcs": null, "notes": "egyedi CTCSS" },
+  { "name": "Tab", "locator": "JN96AR", "channel": 8, "freq_mhz": 446.09375, "ctcss_hz": 88.5, "ctcss_code": "CTCSS 8", "dcs": null, "notes": null }, { "name": "Tamási", "locator": "JN96DP", "channel": 12, "freq_mhz": 446.14375, "ctcss_hz": 74.4, "ctcss_code": "CTCSS 3", "dcs": null, "notes": null }, { "name": "Tapolcai", "locator": "JN86RV", "channel": 8, "freq_mhz": 446.09375, "ctcss_hz": 103.5, "ctcss_code": "CTCSS 13", "dcs": null, "notes": null }, { "name": "Úrkúti", "locator": "JN87TB", "channel": 11, "freq_mhz": 446.13125, "ctcss_hz": 203.5, "ctcss_code": "CTCSS 32", "dcs": null, "notes": null }, { "name": "Úrhidai", "locator": "JN97ED", "channel": 7, "freq_mhz": 446.08125, "ctcss_hz": 100.0, "ctcss_code": "CTCSS 12", "dcs": null, "notes": null }, { "name": "Üröm (Róka-hegy)", "locator": "JN97MO", "channel": 2, "freq_mhz": 446.01875, "ctcss_hz": 85.4, "ctcss_code": "CTCSS 7", "dcs": null, "notes": null }, { "name": "Ócsai", "locator": "JN97OG", "channel": 16, "freq_mhz": 446.19375, "ctcss_hz": 100.0, "ctcss_code": "CTCSS 12", "dcs": null, "notes": null }, { "name": "Oroszlány", "locator": "JN97DL", "channel": 3, "freq_mhz": 446.03125, "ctcss_hz": 103.5, "ctcss_code": "CTCSS 13", "dcs": null, "notes": null }, { "name": "Ózdi", "locator": "KN08DF", "channel": 11, "freq_mhz": 446.13125, "ctcss_hz": 103.5, "ctcss_code": "CTCSS 13", "dcs": null, "notes": null
+
+
 
 ]
