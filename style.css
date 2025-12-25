@@ -50,18 +50,18 @@ html, body {
 }
 
 .header .title {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 4px;
 }
 
 .header .subtitle {
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 4px;
 }
 
 .header .source {
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 4px;
 }
 
@@ -75,19 +75,19 @@ html, body {
 }
 
 .header .updated {
-  font-size: 14px;
+  font-size: 12px;
   opacity: 0.9;
 }
 
 .header .support {
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 4px;
 }
 
 .support a {
   color: #aee2ff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .support a:hover {
