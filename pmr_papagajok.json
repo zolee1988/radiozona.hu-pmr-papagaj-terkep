@@ -349,4 +349,26 @@
     "dcs": null,
     "notes": null
   }
+  ,
+  {
+    "name": "Dunaújvárosi",
+    "locator": "JN96LX",
+    "channel": 9,
+    "freq_mhz": 446.10625,
+    "ctcss_hz": 103.5,
+    "ctcss_code": "CTCSS 13",
+    "dcs": null,
+    "notes": null
+  }
+  ,
+  {
+    "name": "Debreceni",
+    "locator": "KN07TM",
+    "channel": 15,
+    "freq_mhz": 446.18125,
+    "ctcss_hz": null,
+    "ctcss_code": null,
+    "dcs":  "DCS 311",
+    "notes": null
+  }
 ]
