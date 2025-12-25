@@ -118,4 +118,21 @@ html, body {
 .leaflet-popup-content table {
   margin-top: 1em;
 }
+.leaflet-popup-content-wrapper {
+  max-width: 300px !important;
+}
+
+.leaflet-popup-content {
+  -webkit-text-size-adjust: 100%;
+}
+
+.leaflet-popup-content table th {
+  white-space: nowrap;
+}
+
+@media (hover: none) {
+  .leaflet-tooltip-pane {
+    display: none;
+  }
+}
 
