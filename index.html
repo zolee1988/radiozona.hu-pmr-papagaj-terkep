@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <title>PMR Papagáj Térkép</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="locator.js"></script>
+  <meta charset="UTF-8">
+  <title>Magyarországi PMR Papagáj Térkép</title>
+
+  <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="icons/favicon.png">
+
+  <!-- Leaflet alap CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+  <!-- Saját stílus -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h2>PMR Papagáj Térkép</h2>
+<div class="header">
+  <div class="title">Magyarországi PMR papagájok térképe</div>
+  <div class="subtitle">készítette HG4ZKZ Zoli, a radiozona.hu listája alapján</div>
+  <div class="source">
+    Forrás: <a href="https://radiozona.hu" target="_blank">radiozona.hu – PMR papagáj lista</a>
+  </div>
+  <div class="updated">Utolsó frissítés: 2025.12.24.</div>
+</div>
+
 <div id="map"></div>
 
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- Saját JS -->
+<script src="locator.js"></script>
 <script src="map.js"></script>
+
 </body>
 </html>
