@@ -19,10 +19,28 @@ html, body {
   color: #fff;
   padding: 10px 18px;
   border-radius: 8px;
-  text-align: center;
   z-index: 1000;
   backdrop-filter: blur(4px);
   font-family: Arial, sans-serif;
+
+  display: flex;            /* logó + szöveg egymás mellett */
+  align-items: center;      /* függőleges középre igazítás */
+  gap: 12px;                /* logó és szöveg közti távolság */
+  text-align: left;         /* ne középre igazítson */
+}
+
+/* Logó a fejlécben */
+.logo {
+  height: 60px;             /* fejléc magasságához igazodik */
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Szövegblokk a logó mellett */
+.header-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .header .title {
@@ -55,14 +73,16 @@ html, body {
   opacity: 0.9;
 }
 
-/* --- PMR verzió: nincs alsó panel, nincs jelmagyarázat, nincs szűrő --- */
-/* A teljes bottomPanel blokk törölve lett */
-
 /* Mobilbarát fejléc */
 @media (max-width: 600px) {
   .header {
     width: 90%;
     padding: 8px 12px;
+    gap: 8px;
+  }
+
+  .logo {
+    height: 40px;           /* mobilon kisebb logó */
   }
 
   .header .title {
