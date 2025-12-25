@@ -41,13 +41,16 @@ fetch('pmr_papagajok.json')
 
             // Popup HTML
             const popupHtml = `
-                <b>${item.name}</b><br>
-                QTH: ${item.locator}<br>
-                PMR ${item.channel} / ${toneCode}<br>
-                Frekvencia: ${item.freq_mhz} MHz<br>
-                CTCSS: ${toneHz}<br>
-                Megjegyzés: ${item.notes || "-"}
-            `;
+    <div class="title">${item.name}</div>
+    <table>
+        <tr><th>QTH</th><td>${item.locator}</td></tr>
+        <tr><th>PMR</th><td>${item.channel} / ${toneCode}</td></tr>
+        <tr><th>Frekvencia</th><td>${item.freq_mhz} MHz</td></tr>
+        <tr><th>CTCSS</th><td>${toneHz}</td></tr>
+        <tr><th>Megjegyzés</th><td>${item.notes || "-"}</td></tr>
+    </table>
+`;
+
 
             // Marker
             L.marker([coords.lat, coords.lng], { icon: pmrIcon })
