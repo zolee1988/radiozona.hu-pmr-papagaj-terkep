@@ -85,3 +85,14 @@ html, body {
   font-size: 18px;
   line-height: 1.4;
 }
+
+
+.support a {
+  color: #aee2ff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.support a:hover {
+  text-decoration: underline;
+}
