@@ -31,7 +31,7 @@ html, body {
 
 /* Logó a fejlécben */
 .logo {
-  height: 60px;             /* fejléc magasságához igazodik */
+  height: 80px;             /* fejléc magasságához igazodik */
   width: auto;
   object-fit: contain;
   display: block;
