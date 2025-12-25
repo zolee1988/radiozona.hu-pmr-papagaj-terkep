@@ -29,7 +29,9 @@ html, body {
   backdrop-filter: blur(4px);
   font-family: Arial, sans-serif;
 
-  display: flex;            /* logó + szöveg egymás mellett */
+  display: none;
+  
+/*   display: flex;            /* logó + szöveg egymás mellett */
   align-items: center;      /* függőleges középre igazítás */
   gap: 12px;                /* logó és szöveg közti távolság */
   text-align: left;         /* ne középre igazítson */
