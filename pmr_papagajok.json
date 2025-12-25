@@ -38,5 +38,17 @@
     "ctcss_code": "CTCSS 3",
     "dcs": null,
     "notes": null
-  }
+  },
+  { "name": "Egri", "locator": "KN07EV", "channel": 13, "freq_mhz": 446.15625, "ctcss_hz": 114.8, "ctcss_code": "CTCSS 16", "dcs": null, "notes": null },
+  {
+  "name": "Győr",
+  "locator": "JN87TQ",
+  "channel": 7,
+  "freq_mhz": 446.08125,
+  "ctcss_hz": 141.3,
+  "ctcss_code": "CTCSS 22",
+  "dcs": null,
+  "notes": null
+}
+
 ]
