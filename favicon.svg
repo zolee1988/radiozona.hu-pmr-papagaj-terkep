@@ -1,54 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- Háttér (opcionális, ha átlátszót akarsz, töröld ki) -->
-  <rect x="0" y="0" width="64" height="64" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40">
+  <!-- Sötétszürke háttér, hogy a fehér M látszódjon.
+       Ha átlátszót szeretnél, töröld ki ezt a rect-et,
+       és a fehér M-et tedd más színre. -->
+  <rect x="0" y="0" width="120" height="40" fill="#222222"/>
 
-  <!-- Papagáj alap fejforma -->
-  <circle cx="32" cy="32" r="22" fill="none"/>
+  <!-- P (piros) -->
+  <text x="15" y="28"
+        font-family="Arial, Helvetica, sans-serif"
+        font-weight="bold"
+        font-size="26"
+        fill="#d32f2f">
+    P
+  </text>
 
-  <!-- Piros rész (fej hátulja / taréj) -->
-  <path
-    d="M18 18
-       Q32 4 46 18
-       Q40 20 38 26
-       Q32 22 26 22
-       Q22 22 18 24
-       Z"
-    fill="#d32f2f"
-  />
+  <!-- M (fehér) -->
+  <text x="45" y="28"
+        font-family="Arial, Helvetica, sans-serif"
+        font-weight="bold"
+        font-size="26"
+        fill="#ffffff">
+    M
+  </text>
 
-  <!-- Zöld rész (nyak / hátsó tollazat) -->
-  <path
-    d="M20 30
-       Q22 44 34 50
-       Q40 46 44 38
-       Q38 38 34 36
-       Q28 34 24 32
-       Z"
-    fill="#388e3c"
-  />
-
-  <!-- Fehér arc -->
-  <path
-    d="M22 24
-       Q30 20 40 24
-       Q44 30 42 36
-       Q36 40 30 38
-       Q24 36 22 30
-       Z"
-    fill="white"
-  />
-
-  <!-- Csőr -->
-  <path
-    d="M36 32
-       Q44 30 48 32
-       Q44 36 38 36
-       Z"
-    fill="#212121"
-  />
-
-  <!-- Szem -->
-  <circle cx="34" cy="28" r="3" fill="#212121"/>
-  <circle cx="35" cy="27.5" r="1" fill="white"/>
-
+  <!-- R (zöld) -->
+  <text x="80" y="28"
+        font-family="Arial, Helvetica, sans-serif"
+        font-weight="bold"
+        font-size="26"
+        fill="#388e3c">
+    R
+  </text>
 </svg>
