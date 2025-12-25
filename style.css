@@ -106,20 +106,20 @@ html, body {
     height: calc(100vh - 20px);
   }
 
-  /* Papagáj ikonok nagyítása */
+  /* Papagáj ikonok nagyítása (iPhone 12 minihez is jó) */
   .leaflet-marker-icon {
-    transform: scale(1.4);
+    transform: scale(1.9);
     transform-origin: center;
   }
 
   /* Popup nagyobb betűméret + padding */
   .leaflet-popup-content {
-    font-size: 16px;
-    line-height: 1.35;
+    font-size: 18px;
+    line-height: 1.4;
   }
 
   .leaflet-popup-content-wrapper {
-    padding: 14px 16px;
+    padding: 18px 20px;
   }
 
   .leaflet-popup-tip {
@@ -129,6 +129,6 @@ html, body {
 
   /* Popup szélesebb mobilon */
   .leaflet-popup {
-    max-width: 260px !important;
+    max-width: 300px !important;
   }
 }
