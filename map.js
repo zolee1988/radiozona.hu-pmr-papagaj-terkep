@@ -9,8 +9,11 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // PMR ikon (opcionális)
 const pmrIcon = L.icon({
     iconUrl: 'https://cdn-icons-png.flaticon.com/512/854/854878.png',
-    iconSize: [28, 28]
+    iconSize: [48, 48],      // <<< nagyobb ikon
+    iconAnchor: [24, 48],    // <<< ikon közepe + alja
+    popupAnchor: [0, -48]    // <<< popup ne csússzon rá
 });
+
 
 // JSON betöltése
 fetch('pmr_papagajok.json')
