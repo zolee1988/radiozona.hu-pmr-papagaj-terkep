@@ -96,3 +96,22 @@ html, body {
 .support a:hover {
   text-decoration: underline;
 }
+
+/* --- Popup kompakt mobilbarát stílus --- */
+
+.leaflet-popup-content {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.leaflet-popup-content .title {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.leaflet-popup-content table {
+  margin-top: 1em;
+}
+
