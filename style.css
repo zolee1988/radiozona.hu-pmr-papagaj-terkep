@@ -77,12 +77,6 @@ html, body {
 /* GLOBÁLIS NAGYÍTÁS MINDEN ESZKÖZÖN     */
 /* -------------------------------------- */
 
-/* Papagáj ikonok nagyítása */
-.leaflet-marker-icon {
-  transform: scale(1.8);
-  transform-origin: center;
-}
-
 /* Popup betűméret növelése */
 .leaflet-popup-content {
   font-size: 18px;
@@ -91,7 +85,7 @@ html, body {
 
 /* Popup belső tér növelése */
 .leaflet-popup-content-wrapper {
-  padding: 18px 20px;
+  padding: 10px 12px;
 }
 
 /* Popup háromszög nagyítása */
