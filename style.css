@@ -6,7 +6,7 @@ html, body {
 
 #map {
   position: absolute;
-  top: 40px;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
@@ -79,16 +79,6 @@ html, body {
   opacity: 0.9;
 }
 
-/* -------------------------------------- */
-/* GLOBÁLIS NAGYÍTÁS MINDEN ESZKÖZÖN     */
-/* -------------------------------------- */
-
-/* Popup betűméret növelése */
-.leaflet-popup-content {
-  font-size: 18px;
-  line-height: 1.4;
-}
-
 .header .support {
   font-size: 18px;
   margin-bottom: 4px;
@@ -138,4 +128,12 @@ html, body {
     display: none;
   }
 }
+
+.leaflet-popup-content-wrapper {
+  max-width: 300px !important;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 
