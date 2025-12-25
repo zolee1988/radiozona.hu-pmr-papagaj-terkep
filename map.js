@@ -21,22 +21,30 @@ fetch('pmr_papagajok.json')
             // Lokátorból koordináta
             const coords = locatorToLatLng(item.locator);
 
-            // Hangolás mező összeállítása
-            let tone = "-";
+            // CTCSS / DCS mezők külön kezelése
+            let toneCode = "-";
+            let toneHz = "-";
+
+            if (item.ctcss_code) {
+                toneCode = item.ctcss_code.replace("CTCSS ", ""); // csak a szám
+            }
+
             if (item.ctcss_hz) {
-                tone = item.ctcss_hz + " Hz";
-                if (item.ctcss_code) tone += " (" + item.ctcss_code + ")";
-            } else if (item.dcs) {
-                tone = item.dcs;
+                toneHz = item.ctcss_hz + " Hz";
+            }
+
+            if (item.dcs) {
+                toneCode = item.dcs;   // pl. DCS023
+                toneHz = "-";          // nincs Hz érték
             }
 
             // Popup HTML
             const popupHtml = `
                 <b>${item.name}</b><br>
                 QTH: ${item.locator}<br>
-                Csatorna: PMR ${item.channel}<br>
+                PMR ${item.channel} / ${toneCode}<br>
                 Frekvencia: ${item.freq_mhz} MHz<br>
-                Hangolás: ${tone}<br>
+                CTCSS: ${toneHz}<br>
                 Megjegyzés: ${item.notes || "-"}
             `;
 
