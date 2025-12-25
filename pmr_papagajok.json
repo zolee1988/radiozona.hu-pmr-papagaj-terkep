@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ajkai",
+    "locator": "JN87SC",
+    "channel": 14,
+    "freq_mhz": 446.16875,
+    "ctcss_hz": 107.2,
+    "ctcss_code": "CTCSS 14",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Balatoni",
+    "locator": "JN86WV",
+    "channel": 10,
+    "freq_mhz": 446.11875,
+    "ctcss_hz": 100.0,
+    "ctcss_code": "CTCSS 12",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Békéscsabai",
+    "locator": "KN06NQ",
+    "channel": 11,
+    "freq_mhz": 446.13125,
+    "ctcss_hz": 100.0,
+    "ctcss_code": "CTCSS 12",
+    "dcs": null,
+    "notes": null
+  },
+  {
+    "name": "Dombóvári",
+    "locator": "JN96BI",
+    "channel": 11,
+    "freq_mhz": 446.19375,
+    "ctcss_hz": 74.4,
+    "ctcss_code": "CTCSS 3",
+    "dcs": null,
+    "notes": null
+  }
+]
