@@ -39,9 +39,9 @@ fetch('pmr_papagajok.json')
                 toneHz = "-";          // nincs Hz érték
             }
 
-            // Popup HTML
             const popupHtml = `
     <div class="title">${item.name}</div>
+    <div style="height:2px; background:#2A81CB; margin:4px 0 6px 0; border-radius:2px;"></div>
     <table>
         <tr><th>QTH</th><td>${item.locator}</td></tr>
         <tr><th>PMR</th><td>${item.channel} / ${toneCode}</td></tr>
@@ -50,6 +50,7 @@ fetch('pmr_papagajok.json')
         <tr><th>Megjegyzés</th><td>${item.notes || "-"}</td></tr>
     </table>
 `;
+
 
 
             // Marker
