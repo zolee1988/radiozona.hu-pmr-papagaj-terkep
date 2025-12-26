@@ -47,9 +47,10 @@ fetch('pmr_papagajok.json')
         <tr><th>PMR</th><td>${item.channel} / ${toneCode}</td></tr>
         <tr><th>Frekvencia</th><td>${item.freq_mhz} MHz</td></tr>
         <tr><th>CTCSS</th><td>${toneHz}</td></tr>
-        <tr><th>Megjegyzés</th><td>${item.notes || "-"}</td></tr>
+        ${item.notes ? `<tr><th>Megjegyzés</th><td>${item.notes}</td></tr>` : ""}
     </table>
 `;
+
 
 
 
