@@ -141,5 +141,11 @@ html {
   vertical-align: middle;
 }
 
+.leaflet-popup-content table th,
+.leaflet-popup-content table td {
+  vertical-align: top;
+}
+
+
 
 
