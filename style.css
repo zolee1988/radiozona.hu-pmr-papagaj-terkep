@@ -136,4 +136,10 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+.support img {
+  height: 14px;
+  vertical-align: middle;
+}
+
+
 
