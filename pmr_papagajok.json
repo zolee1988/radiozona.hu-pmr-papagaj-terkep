@@ -352,11 +352,11 @@
   ,
   {
     "name": "Dunaújvárosi",
-    "locator": "JN96LX",
-    "channel": 9,
-    "freq_mhz": 446.10625,
-    "ctcss_hz": 103.5,
-    "ctcss_code": "CTCSS 13",
+    "locator": "JN96LW",
+    "channel": 11,
+    "freq_mhz": 446.13125,
+    "ctcss_hz": 77,
+    "ctcss_code": "CTCSS 4",
     "dcs": null,
     "notes": null
   }
