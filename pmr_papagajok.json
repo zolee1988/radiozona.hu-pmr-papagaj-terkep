@@ -91,11 +91,11 @@
   },
   {
     "name": "Kaposvári",
-    "locator": "JN86VI55ig",
-    "channel": 8,
-    "freq_mhz": 446.09375,
-    "ctcss_hz": 88.5,
-    "ctcss_code": "CTCSS 8",
+    "locator": "JN86VI",
+    "channel": 14,
+    "freq_mhz": 446.16875,
+    "ctcss_hz": 77.4,
+    "ctcss_code": "CTCSS 4",
     "dcs": null,
     "notes": null
   },
