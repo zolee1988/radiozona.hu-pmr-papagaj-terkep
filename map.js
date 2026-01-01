@@ -17,6 +17,7 @@ const pmrIcon = L.icon({
 fetch('pmr_papagajok.json')
     .then(response => response.json())
     .then(data => {
+        console.log("Betöltött papagájok:", data.length);
         data.forEach(item => {
 
             // Lokátorból koordináta
