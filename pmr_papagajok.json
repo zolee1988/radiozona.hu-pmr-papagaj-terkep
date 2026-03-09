@@ -1,15 +1,5 @@
 [
   {
-    "name": "Ajkai",
-    "locator": "JN87SC",
-    "channel": 14,
-    "freq_mhz": 446.16875,
-    "ctcss_hz": 107.2,
-    "ctcss_code": "CTCSS 14",
-    "dcs": null,
-    "notes": null
-  },
-  {
     "name": "Balatoni",
     "locator": "JN86WV",
     "channel": 10,
@@ -72,10 +62,10 @@
   {
     "name": "Győr",
     "locator": "JN87TQ",
-    "channel": 7,
-    "freq_mhz": 446.08125,
-    "ctcss_hz": 141.3,
-    "ctcss_code": "CTCSS 22",
+    "channel": 5,
+    "freq_mhz": 446.056250,
+    "ctcss_hz": 107.2,
+    "ctcss_code": "CTCSS 14",
     "dcs": null,
     "notes": null
   },
@@ -89,17 +79,7 @@
     "dcs": null,
     "notes": null
   },
-  {
-    "name": "Kaposvári",
-    "locator": "JN86VI",
-    "channel": 14,
-    "freq_mhz": 446.16875,
-    "ctcss_hz": 77.4,
-    "ctcss_code": "CTCSS 4",
-    "dcs": null,
-    "notes": null
-  },
-  {
+    {
     "name": "Kerepesi",
     "locator": "JN97PN",
     "channel": 2,
@@ -176,16 +156,6 @@
     "freq_mhz": 446.15625,
     "ctcss_hz": 210.7,
     "ctcss_code": "CTCSS 33",
-    "dcs": null,
-    "notes": null
-  },
-  {
-    "name": "Ócsai",
-    "locator": "JN97OG",
-    "channel": 16,
-    "freq_mhz": 446.19375,
-    "ctcss_hz": 100.0,
-    "ctcss_code": "CTCSS 12",
     "dcs": null,
     "notes": null
   },
